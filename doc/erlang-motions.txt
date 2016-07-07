@@ -1,8 +1,8 @@
 
 INTRODUCTION					*erlang-motions*
 
-Provides key mappings for motions that jump over Erlang functions, function
-clauses, and function declarations.
+Provides key mappings for motions and text objects for Erlang functions,
+function clauses, and function declarations.
 
 1. Motions					*erlang-motions-motions*
 
@@ -15,6 +15,7 @@ clauses, and function declarations.
 						*]m*
 ]m			next function clause
 
+						*[m*
 [m			previous function clause
 
 And more: `]M`, `[M`, `][`, `[]` go to **end** of next/previous clause/declaration
@@ -22,16 +23,16 @@ And more: `]M`, `[M`, `][`, `[]` go to **end** of next/previous clause/declarati
 2. Text objects					*erlang-motions-text-objects*
 
 						*im*
-im			inside function clause.
+im			select inside function clause.  Example: 'yim'
 
 						*am*
-am			around function clause.
+am			select around function clause.  Example: 'dam'
 
 						*iM*
-iM			inside function declaration. `vaM`:
+iM			select inside function declaration.  Example: 'viM'
 
 						*aM*
-aM			around function declaration. `vaM`:
+aM			select around function declaration. Example: 'vaM'
 
 
  vim:tw=78:ts=8:ft=help:norl:noet:
