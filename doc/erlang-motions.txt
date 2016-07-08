@@ -18,7 +18,18 @@ function clauses, and function declarations.
 						*[m*
 [m			previous function clause
 
-And more: `]M`, `[M`, `][`, `[]` go to **end** of next/previous clause/declaration
+						*]M*
+]M			go to end of next function clause
+
+						*[M*
+[M			go to end of previous function clause
+
+						*][*
+][			go to end of next function declaration
+
+						*[]*
+[]			go to end of previous function declaration
+
 
 2. Text objects					*erlang-motions-text-objects*
 
