@@ -1,3 +1,5 @@
+# For oginal repo see https://github.com/edkolev/erlang-motions.vim 
+
 # erlang-motions.vim
 
 Motions and text objects for erlang!
