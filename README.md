@@ -1,4 +1,4 @@
-# For oginal repo see https://github.com/edkolev/erlang-motions.vim 
+# For original repo see: https://github.com/edkolev/erlang-motions.vim 
 
 # erlang-motions.vim
 
